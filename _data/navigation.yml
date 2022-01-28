@@ -4,19 +4,19 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
+  # - title: "Teaching"
+  #   url: /teaching/
+
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
+  - title: "Blog"
     url: /year-archive/
-    
+
   - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: https://www.dropbox.com/s/27q2v6ryu0zgr7l/cv.pdf?dl=0
+
+  # - title: "Guide"
+  #   url: /markdown/
