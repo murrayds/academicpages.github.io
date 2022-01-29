@@ -44,5 +44,13 @@
       {% if post.blogurl %}
         <a href="{{ post.blogurl }}" class="fas fa-paragraph publication-resource">  Blog  </a>
       {% endif %}
+
+      {% if post.posterurl %}
+        <a href="{{ post.posterurl }}" class="fas fa-image publication-resource">  Poster  </a>
+      {% endif %}
+
+      {% if post.videourl %}
+        <a href="{{ post.videourl }}" class="fas fa-video publication-resource">  Video  </a>
+      {% endif %}
   </article>
 </div>
