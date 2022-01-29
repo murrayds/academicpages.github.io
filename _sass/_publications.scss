@@ -20,11 +20,13 @@
 .publication__citation {
   color: $dark-gray;
   margin-bottom:0;
+  font-size: $type-size-5;
   margin-top: 0;
 }
 
 .publication-resource {
   border: 1px solid;
+  color: $info-color !important;
   padding: 2px;
   padding-right: 5px;
   text-decoration: none !important;

@@ -36,6 +36,7 @@
 
 .page__title {
   margin-top: 0;
+  margin-bottom: 0;
   line-height: 1;
 
   & + .page__meta {
@@ -49,6 +50,8 @@
 }
 
 .page__content {
+
+  margin-top: 1em;
 
   h2 {
     padding-bottom: 0.5em;
@@ -230,6 +233,11 @@
   color: mix(#fff, $gray, 25%);
   font-family: $global-font-family;
   font-size: $type-size-6;
+  float: none !important;
+
+  i {
+    color: $info-color;
+  }
 
   p {
     margin: 0;
